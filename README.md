@@ -18,4 +18,4 @@ Todos los elementos de un árbol B+ se almacenan en las hojas, que son los únic
 [ ] La clase **Nodo** debe tener el método **insertarClave()**.\
 [ ] La clase **Nodo** debe tener el método **dividir()**, el cual se invoca cada vez que el nodo ha alcanzado la cantidad de claves permitidas.\
 [ ] El sistema debe incluir una interfaz de consola sencilla mediante la cual el usuario pueda interactuar con la estructura de datos.\
-[ ] El sistema debe incluir un **menu()** de consola sencillo pero intuitivo y amigable con el usuario.\
+[ ] El sistema debe incluir un **menu()** de consola sencillo pero intuitivo y amigable con el usuario.
