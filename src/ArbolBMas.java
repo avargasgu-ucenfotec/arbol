@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArbolBMas {
 
@@ -117,6 +118,19 @@ public class ArbolBMas {
     }
 
     //Eliminar. Eliminación sencilla que no implica fusión de los nodos.
+    public void eliminar(int llave) {
+        eliminarNodo(raiz, llave);
+    }
+
+    private void eliminarNodo(NodoArbolBMas nodo, int llave) {
+        int i = 0;
+        while(i < nodo.getLlaves().size()) {
+            if(llave == nodo.getLlaves().get(i)){
+                nodo.getLlaves().remove(i);
+            }
+            i++;
+        }
+    }
 
     //Recorrido por rango. Muestra los datos correspondientes al rango recuperado.
 }

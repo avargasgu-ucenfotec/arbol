@@ -45,7 +45,9 @@ public class Menu {
                         + arbol.buscar(llaveBuscar));
                 break;
             case 3:
-                System.out.println("Eliminando...");
+                System.out.print("\nSeleccione la llave a eliminar: ");
+                int llaveEliminar = Integer.parseInt(scanner.nextLine());
+                arbol.eliminar(llaveEliminar);
                 break;
             case 4:
                 System.out.println("Recorriendo...");
