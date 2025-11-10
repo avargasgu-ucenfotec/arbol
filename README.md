@@ -14,7 +14,7 @@ Todos los elementos de un árbol B+ se almacenan en las hojas, que son los únic
 [ x ] La clase **ArbolBMas** debe tener el método **eliminar()**, el cual recibe la clave del elemento por eliminar.\
 [ ] La clase **ArbolBMas** debe tener el método **recorrer()**, el cual recibe un valor **n** y realiza una búsqueda e imprime los siguientes **n** elementos.\
 [ ] El sistema debe incluir una clase **Nodo**, cuyos atributos son **listaClaves**, **esHoja**, **listaHijos** y **siguiente**.\
-[ ] La clase **Nodo** debe tener los métodos estándares ordinarios.\
+[ x ] La clase **Nodo** debe tener los métodos estándares ordinarios.\
 [ x ] La clase **Nodo** debe tener el método **insertarClave()**.\
 [ x ] La clase **Nodo** debe tener el método **dividir()**, el cual se invoca cada vez que el nodo ha alcanzado la cantidad de claves permitidas.\
 [ x ] El sistema debe incluir una interfaz de consola sencilla mediante la cual el usuario pueda interactuar con la estructura de datos.\
