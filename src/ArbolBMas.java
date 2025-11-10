@@ -2,18 +2,18 @@ import java.util.ArrayList;
 
 public class ArbolBMas {
 
-    //Atributos.
-    private final int orden;
+    //Atributos
     private NodoArbolBMas raiz;
+    private final int orden;
 
-    //Métodos.
-    //Constructor.
+    //Métodos
+    //Constructor
     public ArbolBMas(int orden) {
         this.orden = orden;
         raiz = new NodoArbolBMas(true);
     }
 
-    //Inserción de una llave en el árbol B+.
+    //Inserción de una llave en el árbol B+
     public void insertar(int llave) {
         if(this.raiz.getLlaves().size() == orden - 1) {
             NodoArbolBMas nuevaRaiz = new NodoArbolBMas(false);
